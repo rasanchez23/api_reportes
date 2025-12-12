@@ -104,9 +104,3 @@ curl -X POST http://localhost:8080/reports \
 ```bash
 curl http://localhost:8080/feed
 ```
-
-## Notas
-
-- Las contraseñas se almacenan hasheadas con SHA-256 para seguridad básica.
-- Los datos se pierden al reiniciar el servidor. Para persistencia, integra una base de datos como PostgreSQL o MongoDB.
-- Esta API es básica y no incluye autenticación JWT o middleware avanzado. Se puede expandir según necesidades.
